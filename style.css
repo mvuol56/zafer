@@ -1,0 +1,115 @@
+*{
+    border-radius: 32px;
+}
+body{
+    background-color:burlywood;
+    /* font-style: italic; */
+     
+}
+.x{
+    background-color: brown;
+}
+.x a{
+    color: black;
+    padding: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+header h1{
+    margin: 10px 10px;
+    background-color: brown;
+    text-align:center ;
+    padding-top: 10px;
+    font-style: unset;
+    font-size: xx-large;
+}
+a{
+    display: block;
+    background-color:brown;
+    color: black;
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: burlywood;
+}
+.z{
+    font-size: x-large;
+    padding:20px 20px;
+    margin: 10px 10px;
+}
+section{
+    background-color: brown;
+    color: white;
+    font-style: italic;
+    height: 200px;
+    width: 280px;
+    margin: 200px auto 0 auto;
+    position: relative;
+    transition: all 2s;
+}
+
+
+section:hover{
+    height: 300px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50px;
+    top: -30px;
+    transition: all 1s;
+}
+.container{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    opacity: ;
+    transition: all 0.4s;
+
+}
+section:hover.container{
+    opacity: 1;
+}
+section:hover img{
+    top: -100px;
+    border-radius: 50%;
+    transform: rotate(720deg);
+}
+
+.img1{
+    background-image: url(iamge/ملابس-تعليقة-الثياب-عن-كرتون-ألبوم-الصور__k54574811.jpg);
+    height: 700px;
+}
+.o{
+    font-size: x-large;
+    text-align: center;
+    font-style: unset;
+        
+}
+.m{
+    text-align: center;
+    font-size: large;
+}
+form{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: brown;
+    font-size: larger;
+    color:honeydew
+}
+
